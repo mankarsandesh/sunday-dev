@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Theme from '@/components/shared/navbar/Theme'
 import { SignedIn, UserButton } from '@clerk/nextjs'
 import MobileNavBar from './MobileNavBar'
+import GlobalSearch from '../search/GlobalSearch'
 const NavBar = () => {
 	return (
 		<nav className="flex-between background-light900_dark200 fixed z-50 w-full gap-5 p-6 shadow-light-300 dark:show-none sm:px-12">
@@ -18,7 +19,7 @@ const NavBar = () => {
 					Sunday <span className="text-primary-500">Dev</span>
 				</p>
 			</Link>
-			GlobalSearch
+			<GlobalSearch />
 			<div className="flex-between gap-5">
 				<Theme />
 				<SignedIn>
