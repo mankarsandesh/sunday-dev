@@ -19,10 +19,10 @@ const RightSideBar = () => {
 	]
 	const PopularTags = [
 		{ id: '1', title: 'Javascript', totalQuestions: '2054' },
-		{ id: '1', title: 'React', totalQuestions: '2054' },
-		{ id: '1', title: 'next', totalQuestions: '2054' },
-		{ id: '1', title: 'Typescript', totalQuestions: '2054' },
-		{ id: '1', title: 'Vuejs', totalQuestions: '2054' },
+		{ id: '2', title: 'React', totalQuestions: '2054' },
+		{ id: '3', title: 'next', totalQuestions: '2054' },
+		{ id: '4', title: 'Typescript', totalQuestions: '2054' },
+		{ id: '5', title: 'Vuejs', totalQuestions: '2054' },
 	]
 
 	return (
